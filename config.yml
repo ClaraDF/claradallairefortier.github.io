@@ -1,4 +1,4 @@
-baseURL: "claradallairefortier.github.io" 
+baseURL: 
 title: Clara Lea Dallaire-Fortier
 paginate: 20
 theme: PaperMod
@@ -57,7 +57,7 @@ params:
           enabled: true
           title: Clara Lea Dallaire-Fortier
           subtitle: "Doctoral Researcher at the Department of Economic History at Lund University, I build from various political economy approach and investigate questions of ecological transition."
-          imageUrl: "/photo.jpeg"
+          imageUrl: "/photo.jpg"
           imageWidth: 160
           imageHeight: 160
           imageTitle: Clara Lea Dallaire-Fortier
