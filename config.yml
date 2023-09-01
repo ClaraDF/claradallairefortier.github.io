@@ -1,0 +1,109 @@
+baseURL: "claradallairefortier.github.io" 
+title: Clara Lea Dallaire-Fortier
+paginate: 20
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+social:
+    twitter: DallaireLea
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Papers
+          url: /papers/
+          weight: 1
+        - name: Courses
+          url: /courses/
+          weight: 2
+        - name: Design
+          url: /design/
+          weight: 3
+        - name: Tags
+          url: /tags/
+          weight: 5     
+        - name: Newsletter
+          url: 
+          weight: 4
+
+params:
+    description: "Doctoral Researcher at the Department of Economic History at Lund University, I build from various political economy approach and investigate questions of ecological transition."
+    author: Clara Dallaire-Fortier
+    googleAnalyticsID: 
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: true
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: false
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Clara Lea Dallaire-Fortier
+          subtitle: "Doctoral Researcher at the Department of Economic History at Lund University, I build from various political economy approach and investigate questions of ecological transition."
+          imageUrl: "/picture.png"
+          imageWidth: 160
+          imageHeight: 160
+          imageTitle: Clara Lea Dallaire-Fortier
+          buttons:
+            - name: Papers
+              url: /papers/
+            - name: Courses
+              url: /courses/
+            - name: Design
+              url: /design/
+            - name: Newsletter
+              url:
+    socialIcons:
+        - name: CV
+          url: /cv.pdf
+        - name: Email
+          url: mailto:claradallairefortier@gmail.com
+        - name: Lund Profile
+          url: https://portal.research.lu.se/en/persons/clara-dallaire-fortier
+        - name: YouTube
+          url: https://www.youtube.com/@claradallaire-fortier814
+
+    assets:
+        disableHLJS: true
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: true
+        hiddenInSingle: true
+    label:
+      text: 
+      icon: /favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: xcode
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
+
+# max number of characters:
+# * title: 70
+# * description: 120–155
+# * summary: 265
